@@ -437,24 +437,24 @@ file_name_list1 = ['pdc_2020_0000101.xes', 'pdc_2020_0000110.xes', 'pdc_2020_000
 file_name_list2 = ['pdc_2020_0001010.xes', 'pdc_2020_0001011.xes', 'pdc_2020_0001100.xes', 'pdc_2020_0001101.xes', 'pdc_2020_0001110.xes']
 file_name_list3 = ['pdc_2020_0001111.xes', 'pdc_2020_0010000.xes', 'pdc_2020_0010001.xes', 'pdc_2020_0010010.xes', 'pdc_2020_0010011.xes']
 file_name_list4 = ['pdc_2020_0010100.xes', 'pdc_2020_0010101.xes', 'pdc_2020_0010110.xes', 'pdc_2020_0010111.xes', 'pdc_2020_0011000.xes']
-#file_name_list = ['BPI_Challenge_2012.xes']
+
 for file_name in file_name_list:
     training_path = path + str(file_name)
     the_result = get_precision_recall(training_path)
     result.append(the_result)
-#for file_name in file_name_list1:
+for file_name in file_name_list1:
     training_path = path + str(file_name)
     the_result = get_precision_recall(training_path)
     result.append(the_result)
-#for file_name in file_name_list2:
+for file_name in file_name_list2:
     training_path = path + str(file_name)
     the_result = get_precision_recall(training_path)
     result.append(the_result)
-#for file_name in file_name_list3:
+for file_name in file_name_list3:
     training_path = path + str(file_name)
     the_result = get_precision_recall(training_path)
     result.append(the_result)
-#for file_name in file_name_list4:
+for file_name in file_name_list4:
     training_path = path + str(file_name)
     the_result = get_precision_recall(training_path)
     result.append(the_result)
